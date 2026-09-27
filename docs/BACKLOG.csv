@@ -1,0 +1,29 @@
+ID,Title,Area,Priority,Points,Owner,Depends On,Acceptance Summary
+MEPO-001,Approve MVP scope and data policy,product,P0,3,Joint,,Roles data classes retention and first release are documented
+MEPO-002,Create staging Supabase project,devops,P0,2,Caleb,MEPO-001,Staging project exists with owner access and no secrets in git
+MEPO-003,Initialize local Supabase and migrations,database,P0,5,Caleb,MEPO-001,Clean local reset applies migrations and deterministic seed
+MEPO-004,Create profiles programs cohorts memberships schema,database,P0,8,Caleb,MEPO-003,Constraints indexes timestamps and generated types exist
+MEPO-005,Implement membership RLS helpers and policies,security,P0,8,Caleb + friend review,MEPO-004,Negative cross-user and cross-program tests pass
+MEPO-006,Add typed Supabase browser client,auth,P0,3,Caleb,MEPO-002;MEPO-004,Client uses public env vars and generated Database type
+MEPO-007,Implement AuthProvider and session restoration,auth,P0,5,Caleb,MEPO-006,Loading session membership and errors are deterministic
+MEPO-008,Replace fake login with Supabase Auth,auth,P0,5,Caleb,MEPO-007,Role picker is removed and invalid login is safe
+MEPO-009,Add protected role routes,auth,P0,5,Caleb,MEPO-007,Wrong role and no membership cannot enter dashboards
+MEPO-010,Refactor AppShell identity and logout,auth,P0,5,Caleb,MEPO-009,No demo switcher/path identity remains and sign-out works
+MEPO-011,Add reset password flow,auth,P1,3,Caleb,MEPO-007,Request callback completion and errors work
+MEPO-012,Add PR template and baseline CI,devops,P0,3,Caleb,,PR build checks formatting typecheck and build
+MEPO-013,Configure main GitHub ruleset,devops,P0,2,Matt,MEPO-012,One review strict CI stale dismissal and no force push are enforced
+MEPO-014,Configure GitLens PR drafting,devops,P1,2,Each developer,,Both workstations can create reviewed structured PR drafts
+MEPO-015,Add auth and route component tests,auth,P0,5,Caleb,MEPO-008;MEPO-009,Provider login guards refresh and logout are covered
+MEPO-016,Create RLS abuse matrix tests,security,P0,8,Joint,MEPO-005,All listed actor isolation cases pass
+MEPO-017,Persist profile settings,ui,P1,5,Matt,MEPO-005;MEPO-007,Own profile updates persist and unsafe fields cannot change
+MEPO-018,Persist notification preferences,ui,P1,3,Matt,MEPO-005;MEPO-007,Each toggle persists for current user only
+MEPO-019,Implement mentor assignments and reveal,data,P1,8,Caleb,MEPO-005,Reveal timing and assignment visibility pass RLS tests
+MEPO-020,Implement call attempt CRUD,data,P1,8,Caleb,MEPO-019,Assigned mentors record calls and unrelated mentors are denied
+MEPO-021,Implement events and attendance,data,P1,8,Matt,MEPO-005,Role views corrections and attendance summaries work
+MEPO-022,Implement roster import staging,data,P1,8,Caleb,MEPO-004,CSV errors preview dedupe transaction and audit work
+MEPO-023,Fix text encoding defects,ui,P1,3,Matt,,No mojibake remains in canonical src UI
+MEPO-024,Add responsive and accessibility pass,ui,P1,8,Matt,MEPO-023,Primary flows pass keyboard mobile and contrast checks
+MEPO-025,Create staging release checklist,devops,P1,5,Joint,MEPO-015;MEPO-016,Smoke backup rollback and incident steps are documented
+MEPO-026,Add events announcements and tasks,data,P2,8,Matt,MEPO-005,Admin CRUD and audience/user views persist
+MEPO-027,Add document submission foundation,data,P2,8,Caleb,MEPO-005,Private storage submission status and admin access are secure
+MEPO-028,Add profile and resource directories,product,P2,8,Matt,MEPO-017,Search privacy moderation and reporting work
