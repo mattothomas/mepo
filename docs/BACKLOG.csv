@@ -27,3 +27,16 @@ MEPO-025,Create staging release checklist,devops,P1,5,Joint,MEPO-015;MEPO-016,Sm
 MEPO-026,Add events announcements and tasks,data,P2,8,Matt,MEPO-005,Admin CRUD and audience/user views persist
 MEPO-027,Add document submission foundation,data,P2,8,Caleb,MEPO-005,Private storage submission status and admin access are secure
 MEPO-028,Add profile and resource directories,product,P2,8,Matt,MEPO-017,Search privacy moderation and reporting work
+MEPO-029,Reconcile merged Supabase PR with main,devops,P0,3,Caleb,MEPO-003;MEPO-004;MEPO-005,Supabase config migrations CI and generated types are present on main and checks pass
+MEPO-030,Reconcile merged frontend auth PR with main,auth,P0,3,Caleb,MEPO-006;MEPO-007;MEPO-008;MEPO-009;MEPO-010,Auth files are present on main and login logout refresh and role smoke tests pass
+MEPO-031,Implement structured debrief and reflection workflow,engagement,P2,8,Matt,MEPO-026,Prompts stages deadlines optional anonymity reminders summaries and exports work
+MEPO-032,Implement moderated Q&A board,community,P2,8,Matt,MEPO-028,Questions replies search accepted answers duplicates notifications reporting and moderation work
+MEPO-033,Add Q&A escalation workflow,community,P2,5,Matt,MEPO-032,Ownership states timers routing and overdue dashboard work without an unsupported response promise
+MEPO-034,Add interest-based activity reminders,notifications,P2,5,Matt,MEPO-018;MEPO-026,Users choose interests channels and cadence and can opt out
+MEPO-035,Add upperclassman advice board,community,P2,5,Matt,MEPO-028,Tagged searchable moderated advice supports bookmarks featured answers and reporting
+MEPO-036,Add playlist suggestion and voting,engagement,P3,5,Matt,MEPO-026,Suggestions votes filtering rate limits moderator control and queue locking work
+MEPO-037,Add tailored opportunity digest,opportunities,P3,8,Joint,MEPO-018,Curated opportunities target majors and interests with reviewed dates links and reminders
+MEPO-038,Define and build governed exam bank,academics,P3,13,Joint,MEPO-005,Approved integrity copyright moderation takedown access and archival controls are enforced
+MEPO-039,Pilot privacy-preserving schedule matching,academics,P3,13,Joint,MEPO-005,Consent manual course entry visibility controls matching and blocking work before LionPATH integration
+MEPO-040,Add submission reminders and optional OCR review,documents,P2,8,Caleb,MEPO-027,Due-aware reminders delivery monitoring OCR confidence and human correction work without unsafe auto-renaming
+MEPO-041,Evaluate AI and institutional integrations,product,P3,13,Joint,MEPO-025,Privacy institutional vendor cost retention and accuracy reviews approve or reject each integration

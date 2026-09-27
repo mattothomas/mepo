@@ -2,6 +2,8 @@
 
 This document converts the ideas in **MEPO Website Brainstorming.pdf** into a prioritized product roadmap. The PDF is brainstorming input, not a final requirements contract.
 
+For Jira board setup, milestone status, epics, workflow, ownership, and import instructions, see [JIRA_PROJECT_PAGE.md](JIRA_PROJECT_PAGE.md). Jira-importable stories are maintained in [BACKLOG.csv](BACKLOG.csv).
+
 ## Current state
 
 MEPO is currently a polished React/Vite frontend prototype. Login redirects according to a user-selected role, and dashboards, people, calls, attendance, settings, uploads, schedules, and announcements use hard-coded data. There is no real authentication, authorization, database, file storage, notification service, backend API, audit trail, or production deployment workflow.
