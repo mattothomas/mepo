@@ -6,12 +6,13 @@ Mentoring and orientation web application for Penn State students, mentors, and 
 
 The frontend prototype is being connected to Supabase. The repository now includes:
 
-- Supabase project and environment foundation
+- Supabase Auth client/session foundation
+- membership-based role routing
 - initial profile/program/cohort/membership migration
 - baseline Row Level Security policies
 - CI, PR template, roadmap, ownership, and a point-estimated backlog
 
-Authentication UI and dashboard feature data are still mocked on this branch. They will be migrated in later pull requests, one vertical slice at a time.
+The dashboard feature data is still mocked and will be migrated one vertical slice at a time.
 
 ## Local application
 
