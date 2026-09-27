@@ -1,0 +1,2 @@
+-- Local-only seed data will be added with deterministic Auth user UUIDs once the
+-- team agrees on shared test personas. Never place real student data here.
