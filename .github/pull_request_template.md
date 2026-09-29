@@ -1,40 +1,13 @@
 ## Summary
 
-<!-- What user or engineering problem does this PR solve? -->
+<!-- Write exactly 1-2 plain sentences. No headers, no bold labels, no bullet categories unless truly needed. -->
 
-## Changes
+## Details
 
-- 
+<!-- Optional bullets if useful. Delete this section if the summary covers it. -->
 
-## Testing
-
-<!-- List exact commands and results. Do not claim unrun tests. -->
-
-- [ ] `npm run format:check`
-- [ ] `npm run typecheck`
-- [ ] `npm run build`
-- [ ] Relevant manual flow tested
+-
 
 ## Screenshots
 
-<!-- Required for visible UI changes. -->
-
-## Database migrations
-
-- [ ] No migration
-- [ ] Migration included and tested locally
-- [ ] Rollback/forward-fix plan documented
-
-## Security and privacy
-
-- [ ] No secret, service-role key, or student data committed
-- [ ] RLS/authorization impact reviewed
-- [ ] File storage and data retention impact reviewed
-
-## Rollback
-
-<!-- How can this change be safely disabled or reversed? -->
-
-## Related issue
-
-Closes #
+<!-- Only if a page/UI changed -->
